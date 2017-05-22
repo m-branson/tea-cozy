@@ -9,7 +9,12 @@ html, body {
   opacity: 0.9;
 }
 
-
+h2,
+h4,
+h5 {
+  margin: 0px 0px;
+  padding: 10px 0px 10px 0px;
+}
 /* Header */
 
 div.header {
@@ -60,7 +65,7 @@ div.logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-image: url(/Users/Megan/Projects/builds/TeaCozy/resources/images/img-mission-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
@@ -72,30 +77,86 @@ div.logo {
   background-color: black;
   width: 1200px;
   height: auto;
+  text-align: inherit;
 }
 
 /* Featured */
 
 .featured {
   display: flex;
-  text-align: center;
-  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 80px 0px;
+}
+
+.featured .intro {
+  width: 1000px;
+  height: auto;
+  margin: 10px 0px;
+}
+
+.feature .item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 1000px;
   height: auto;
-  margin: 40px 0px;
 }
 
 .featured .item {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   height: 200px;
   width: 300px;
-
+  padding: 10px 10px 10px 10px;
+  text-align: inherit;
 }
 
-.item caption {
-  text-align: center;
-  padding-top: 10px;
+/* Locations */
+
+.locations {
+  display: flex;
+  background-image: url(/Users/Megan/Projects/builds/TeaCozy/resources/images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.locations-wrapper {
+  display: flex;
+  margin: 60px 0px;
+}
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px 0px 20px;
+}
+
+/* Contact */
+
+.contact {
+  height: 200px;
+  width: auto;
+}
+
+.contact h5 {
+  margin: 30px 0px;
+}
+
+/* Footer */
+
+.footer {
+  text-align: left;
+  margin: 40px 20px;
 }
