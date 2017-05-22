@@ -15,6 +15,7 @@ h5 {
   margin: 0px 0px;
   padding: 10px 0px 10px 0px;
 }
+
 /* Header */
 
 div.header {
@@ -65,12 +66,11 @@ div.logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/Users/Megan/Projects/builds/TeaCozy/resources/images/img-mission-background.jpg);
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
   width: auto;
-
 }
 
 .mission .content {
@@ -112,15 +112,19 @@ div.logo {
   align-items: center;
   height: 200px;
   width: 300px;
-  padding: 10px 10px 10px 10px;
+  padding: 30px 15px;
   text-align: inherit;
+}
+
+.item h4 {
+  margin-top: 10px;
 }
 
 /* Locations */
 
 .locations {
   display: flex;
-  background-image: url(/Users/Megan/Projects/builds/TeaCozy/resources/images/img-locations-background.jpg);
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   justify-content: center;
